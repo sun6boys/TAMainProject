@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/TAConfirmOrder" "${PODS_ROOT}/Headers/Public/TAConfirmOrderBusinessCategory" "${PODS_ROOT}/Headers/Public/TAGoodsDetail" "${PODS_ROOT}/Headers/Public/TAGoodsDetailBusinessCategory"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/TAConfirmOrder" "$PODS_CONFIGURATION_BUILD_DIR/TAConfirmOrderBusinessCategory" "$PODS_CONFIGURATION_BUILD_DIR/TAGoodsDetail" "$PODS_CONFIGURATION_BUILD_DIR/TAGoodsDetailBusinessCategory"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/TAConfirmOrder" -isystem "${PODS_ROOT}/Headers/Public/TAConfirmOrderBusinessCategory" -isystem "${PODS_ROOT}/Headers/Public/TAGoodsDetail" -isystem "${PODS_ROOT}/Headers/Public/TAGoodsDetailBusinessCategory"
+OTHER_LDFLAGS = $(inherited) -ObjC
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

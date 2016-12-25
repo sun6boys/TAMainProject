@@ -1,0 +1,1366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC52483A61EDEA273DC7E2BE8F732DA /* TAConfirmOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7111EA34208DCCABCE9E8EAFDC0ED72 /* TAConfirmOrderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC7F13679F838806F3DA5B6379D88ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0B4855D51EEE3F47440EDE0AB54E1864 /* CTMediator+TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1F3DB48F1AA440DB9B6A5830FC4CC /* CTMediator+TAConfirmOrder.m */; };
+		0F36E16D4931CB3AEF9F3720E2469BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		1AA31916C0D197A7C61EB61D51A6F91C /* TAGoodsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA516D52EA3763B76791AFAA4AC0665 /* TAGoodsDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CACE905279603079202CB6F55EA13A /* CTMediator+TAGoodsDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A39B7A21120C1C966F126BA2B99526 /* CTMediator+TAGoodsDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A220DDE4FEC4C642ECCB6BA9369573F /* Pods-TAMainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9870CD56D08F6B40F3D907EA983EF1C5 /* Pods-TAMainProject-dummy.m */; };
+		31AD9D43CE9915256FE2C708D91ADD6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		31F15209B3D9AC702093D834939A37D5 /* TAConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411912E83B398D1AA6981B51F9B91DF4 /* TAConfirmOrder-dummy.m */; };
+		3406900895E63BB902D955520657CD1C /* Target_TAGoodsDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F327E15B95087A800B47C2FD4A8A34 /* Target_TAGoodsDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C51C1AF7EA95FD32EB14EB87C5BF495 /* TAGoodsDetailBusinessCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BC1779E269E9B3FC613D3E8025D02 /* TAGoodsDetailBusinessCategory-dummy.m */; };
+		3E1FB157E3CD20D11F1D919176648D70 /* Pods-TAMainProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FAB72DD43D9CC744446372A0A02CE /* Pods-TAMainProjectTests-dummy.m */; };
+		601E2B8739C49545FD1428732DCD7DD4 /* Target_TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7424ABA59AA272F48F1D6E4F5912EF37 /* Target_TAConfirmOrder.m */; };
+		7D1617B9EB29AEE0189C915F9D12C1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8052BD1CF60BE790D0E2BE640DDF706C /* CTMediator+TAGoodsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 353FA8451A1E033E788C732643F3883A /* CTMediator+TAGoodsDetail.m */; };
+		828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D73A9B800E2FEAF9D662D87035054 /* CTMediator-dummy.m */; };
+		88429E313E8B17FFB28AC67E0802E61F /* Target_TAGoodsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 967F3D7626AD787D8E6D55316FE88EF4 /* Target_TAGoodsDetail.m */; };
+		8A0CA16C8BB330C73483368A8E1DA396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		915C612D8875694908C3E08D7721480A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		9ED990A9EE0C1E456EDAA353288FBD1A /* TAGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC07FD1021D773F1EB7228A47B7D048 /* TAGoodsDetailViewController.m */; };
+		A4FC472F35879C698B9551D18FF51FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		A735F0E043CABAD19CAFFB1C876E1FFC /* TAGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B381DA9BECF868E2DCDE7E465CA3F6F8 /* TAGoodsDetail-dummy.m */; };
+		AA0DCC2A4F86498191007A31C0089483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		AAC3E991264FE2C3F61A996C81C12D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		AFD9962E62D1065F2FAE75E2C0BB371A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D3C388CC0B5CFFDC270A7C130569BF62 /* Pods-TAMainProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE80DE2BB7B66C2BCC8BCB87FDD19D /* Pods-TAMainProjectUITests-dummy.m */; };
+		D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5FA4FB4B8A559ED7C8ED4D8A987523 /* CTMediator.m */; };
+		D91C2DCF87EA6CCAB74D51EB3D0E83D4 /* TAConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FA1E822C1249FCACC598845EFF906 /* TAConfirmOrderViewController.m */; };
+		DC4268338A1FF55A0DB862FEF01BA5F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E1965741441F147A07A9F76EBF746E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E8C60CF6CA677D881ECDD9720D65292D /* TAConfirmOrderBusinessCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AAD323CDBD6D097DE5072B1D1369D /* TAConfirmOrderBusinessCategory-dummy.m */; };
+		F0A974D75663AACCF158A394DBC37450 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0439D96248502A779E8CA520DE1740BE /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49CC6E5D709BAD0B60AD101F85BF80F /* Target_TAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8C72F717090AEAC7D82D6CCFEE550D /* Target_TAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDC0F2FD2D85609829E7E78F7E1AB3B1 /* CTMediator+TAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEF4D14E57C6FD29F25FD6EB5CB7F0 /* CTMediator+TAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED2A6AC29073752587C213114F53040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35FF4590BEF783E2B2A3B5FBC49EFE8;
+			remoteInfo = TAConfirmOrderBusinessCategory;
+		};
+		1EE1CD9CD2FCF59BEAF3903A4D51BFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		2BDA957DDEDD3739B6F4FF3249866B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB53B9247B7526D216EE7B1263814AF;
+			remoteInfo = TAGoodsDetailBusinessCategory;
+		};
+		87EEE9D77117DD5A15CD87927219961E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35FF4590BEF783E2B2A3B5FBC49EFE8;
+			remoteInfo = TAConfirmOrderBusinessCategory;
+		};
+		899B9646AF06EC673B8DD461BC4008F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF79BB6E21D2A46F951AD366DAA2272E;
+			remoteInfo = TAGoodsDetail;
+		};
+		8B7E4E1509CEB7BC40FAFDD49F6CC683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		B49E85C2D5290B3430104F25BD61354A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE52E83EACB5A5127B9ECF65074BED1D;
+			remoteInfo = TAConfirmOrder;
+		};
+		DA795C3D5753096DB523BC130C5631D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		DFA4F541F2397CF8CEF39D2697B8FF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042AAD323CDBD6D097DE5072B1D1369D /* TAConfirmOrderBusinessCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAConfirmOrderBusinessCategory-dummy.m"; sourceTree = "<group>"; };
+		0439D96248502A779E8CA520DE1740BE /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		0493DEE99B0A93842144D62C9F02F484 /* Pods-TAMainProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProjectUITests-resources.sh"; sourceTree = "<group>"; };
+		13DA43E6447E79F107A684FE5D6E9B72 /* Pods-TAMainProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15C57789688D8E53D870965E3A1C7D32 /* Pods-TAMainProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAMainProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D9C2CC1EEBF3AAB95124BBEDC6E39AE /* Pods-TAMainProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAMainProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EFE80DE2BB7B66C2BCC8BCB87FDD19D /* Pods-TAMainProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAMainProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		353FA8451A1E033E788C732643F3883A /* CTMediator+TAGoodsDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAGoodsDetail.m"; path = "TAGoodsDetailBusinessCategory/TAGoodsDetailBusinessCategory/CTMediator+TAGoodsDetail.m"; sourceTree = "<group>"; };
+		35F8A9A07EF90ABBAD0AD28E7FFCB529 /* Pods-TAMainProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36F327E15B95087A800B47C2FD4A8A34 /* Target_TAGoodsDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TAGoodsDetail.h; path = TAGoodsDetail/TAGoodsDetail/Target_TAGoodsDetail.h; sourceTree = "<group>"; };
+		39BF16247073563C20D2E302235FB472 /* Pods-TAMainProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3AC07FD1021D773F1EB7228A47B7D048 /* TAGoodsDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAGoodsDetailViewController.m; path = TAGoodsDetail/TAGoodsDetail/TAGoodsDetailViewController.m; sourceTree = "<group>"; };
+		3B10DC9F48C11423F85EA2A3221964F1 /* TAConfirmOrderBusinessCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAConfirmOrderBusinessCategory.xcconfig; sourceTree = "<group>"; };
+		3C468D35FCC02A7CC05D912A45D9CF32 /* libTAConfirmOrderBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTAConfirmOrderBusinessCategory.a; path = libTAConfirmOrderBusinessCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		402E7C4CFABDA22539CBC235042ED188 /* libPods-TAMainProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TAMainProjectTests.a"; path = "libPods-TAMainProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4069B8FFB6CF4FFF4A1FEA93B5A83F32 /* Pods-TAMainProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		4106ED0D095A0B055B368CA1E39EF6E9 /* TAGoodsDetailBusinessCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAGoodsDetailBusinessCategory-prefix.pch"; sourceTree = "<group>"; };
+		411912E83B398D1AA6981B51F9B91DF4 /* TAConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		42E28334366A5FA22176749A88EBE2C0 /* TAConfirmOrderBusinessCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAConfirmOrderBusinessCategory-prefix.pch"; sourceTree = "<group>"; };
+		4A5FA4FB4B8A559ED7C8ED4D8A987523 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		4F8C72F717090AEAC7D82D6CCFEE550D /* Target_TAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TAConfirmOrder.h; path = TAConfirmOrder/TAConfirmOrder/Target_TAConfirmOrder.h; sourceTree = "<group>"; };
+		557E4872B56E54070AEFAC28A4DB8E7B /* Pods-TAMainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAMainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		564CFC0814DE8D3BF9903E72F69DFA01 /* Pods-TAMainProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAMainProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5840FC4C9EA31C223A3AE145978E8E19 /* Pods-TAMainProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4FA1E822C1249FCACC598845EFF906 /* TAConfirmOrderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAConfirmOrderViewController.m; path = TAConfirmOrder/TAConfirmOrder/TAConfirmOrderViewController.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61B2EFA82BA67F82B309DBD32FC1878E /* TAConfirmOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAConfirmOrder-prefix.pch"; sourceTree = "<group>"; };
+		6258F3CBA526E64A81160142F7DE37C7 /* libPods-TAMainProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TAMainProjectUITests.a"; path = "libPods-TAMainProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FAB72DD43D9CC744446372A0A02CE /* Pods-TAMainProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAMainProjectTests-dummy.m"; sourceTree = "<group>"; };
+		687009A7BA009C7B9D8B9DB44403C147 /* Pods-TAMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProject.release.xcconfig"; sourceTree = "<group>"; };
+		7288D9AD58A2710C165AF1B2621A4EBF /* TAGoodsDetail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAGoodsDetail.xcconfig; sourceTree = "<group>"; };
+		7424ABA59AA272F48F1D6E4F5912EF37 /* Target_TAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TAConfirmOrder.m; path = TAConfirmOrder/TAConfirmOrder/Target_TAConfirmOrder.m; sourceTree = "<group>"; };
+		77A39B7A21120C1C966F126BA2B99526 /* CTMediator+TAGoodsDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAGoodsDetail.h"; path = "TAGoodsDetailBusinessCategory/TAGoodsDetailBusinessCategory/CTMediator+TAGoodsDetail.h"; sourceTree = "<group>"; };
+		7A5E8179FBAD4A1EEAA6CB0B5393575B /* Pods-TAMainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProject-frameworks.sh"; sourceTree = "<group>"; };
+		7BA1F3DB48F1AA440DB9B6A5830FC4CC /* CTMediator+TAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAConfirmOrder.m"; path = "TAConfirmOrderBusinessCategory/TAConfirmOrderBusinessCategory/CTMediator+TAConfirmOrder.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		83287807439AECD4B17CF46292E3EA8A /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		872ECC75798278AEAF5A17FABD0E4A3E /* Pods-TAMainProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		91AEF4D14E57C6FD29F25FD6EB5CB7F0 /* CTMediator+TAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAConfirmOrder.h"; path = "TAConfirmOrderBusinessCategory/TAConfirmOrderBusinessCategory/CTMediator+TAConfirmOrder.h"; sourceTree = "<group>"; };
+		92FF888BD6FFF1FF32A79997974AD533 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957719974D835E212A1F0A42E8DA656C /* libTAConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTAConfirmOrder.a; path = libTAConfirmOrder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		967F3D7626AD787D8E6D55316FE88EF4 /* Target_TAGoodsDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TAGoodsDetail.m; path = TAGoodsDetail/TAGoodsDetail/Target_TAGoodsDetail.m; sourceTree = "<group>"; };
+		9870CD56D08F6B40F3D907EA983EF1C5 /* Pods-TAMainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAMainProject-dummy.m"; sourceTree = "<group>"; };
+		9CA516D52EA3763B76791AFAA4AC0665 /* TAGoodsDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGoodsDetailViewController.h; path = TAGoodsDetail/TAGoodsDetail/TAGoodsDetailViewController.h; sourceTree = "<group>"; };
+		B381DA9BECF868E2DCDE7E465CA3F6F8 /* TAGoodsDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAGoodsDetail-dummy.m"; sourceTree = "<group>"; };
+		C392B772AC0A63DBBF6522C6F6D3B823 /* Pods-TAMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAMainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC0D6C8929156E7B656FDC0437B13C4 /* Pods-TAMainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAMainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEA9E83B5BCA89810ECD000BC7CB606C /* Pods-TAMainProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProject-resources.sh"; sourceTree = "<group>"; };
+		D01BC1779E269E9B3FC613D3E8025D02 /* TAGoodsDetailBusinessCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAGoodsDetailBusinessCategory-dummy.m"; sourceTree = "<group>"; };
+		D0B7D2ED47C0D9DCA88187C8BBA6C250 /* TAGoodsDetailBusinessCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAGoodsDetailBusinessCategory.xcconfig; sourceTree = "<group>"; };
+		D7111EA34208DCCABCE9E8EAFDC0ED72 /* TAConfirmOrderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAConfirmOrderViewController.h; path = TAConfirmOrder/TAConfirmOrder/TAConfirmOrderViewController.h; sourceTree = "<group>"; };
+		D73D7A2C9912312FA20AF50C272B5CBA /* TAGoodsDetail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAGoodsDetail-prefix.pch"; sourceTree = "<group>"; };
+		D8BCCA87CB6DD848DBB640154F8D3C7B /* Pods-TAMainProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAMainProjectTests-resources.sh"; sourceTree = "<group>"; };
+		DC94EF983D98B5EA8ABFC68139D100CB /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		DD3D73A9B800E2FEAF9D662D87035054 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		E184913EE09ED5D91C2648E845001A0B /* libTAGoodsDetailBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTAGoodsDetailBusinessCategory.a; path = libTAGoodsDetailBusinessCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E511CE645132D2AFDF026E99351AA998 /* TAConfirmOrder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAConfirmOrder.xcconfig; sourceTree = "<group>"; };
+		F0B3844807479FE87058CC64B35E99C5 /* Pods-TAMainProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAMainProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1090ED7683586583311FEDC1D50D2D8 /* libTAGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTAGoodsDetail.a; path = libTAGoodsDetail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4202D975D6F5F82E97CC45B4D7A9874 /* libPods-TAMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TAMainProject.a"; path = "libPods-TAMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08607917C97E16452B38CAAE6A076731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FC472F35879C698B9551D18FF51FD7 /* Foundation.framework in Frameworks */,
+				31AD9D43CE9915256FE2C708D91ADD6D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9E2A15BAE9C8E5972D941E522E12F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC7F13679F838806F3DA5B6379D88ED /* Foundation.framework in Frameworks */,
+				AAC3E991264FE2C3F61A996C81C12D30 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C201EFCB796D7622806A79A586C7AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36E16D4931CB3AEF9F3720E2469BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D65DD8DBEA7A79511FDCC88648904CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1965741441F147A07A9F76EBF746E85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B49089DDA1847B0A9F280E005F1F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD9962E62D1065F2FAE75E2C0BB371A /* Foundation.framework in Frameworks */,
+				915C612D8875694908C3E08D7721480A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFAC856FBC5BDCCE837CADD7077C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1617B9EB29AEE0189C915F9D12C1CB /* Foundation.framework in Frameworks */,
+				AA0DCC2A4F86498191007A31C0089483 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C3D62DEC1D240A45A10666FEAE19E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0CA16C8BB330C73483368A8E1DA396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA27E7990AD81D1DC155549E1700C407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4268338A1FF55A0DB862FEF01BA5F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0331CD83E5A26454C11C3ABAA23AC084 /* Pods-TAMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				CAC0D6C8929156E7B656FDC0437B13C4 /* Pods-TAMainProject-acknowledgements.markdown */,
+				557E4872B56E54070AEFAC28A4DB8E7B /* Pods-TAMainProject-acknowledgements.plist */,
+				9870CD56D08F6B40F3D907EA983EF1C5 /* Pods-TAMainProject-dummy.m */,
+				7A5E8179FBAD4A1EEAA6CB0B5393575B /* Pods-TAMainProject-frameworks.sh */,
+				CEA9E83B5BCA89810ECD000BC7CB606C /* Pods-TAMainProject-resources.sh */,
+				C392B772AC0A63DBBF6522C6F6D3B823 /* Pods-TAMainProject.debug.xcconfig */,
+				687009A7BA009C7B9D8B9DB44403C147 /* Pods-TAMainProject.release.xcconfig */,
+			);
+			name = "Pods-TAMainProject";
+			path = "Target Support Files/Pods-TAMainProject";
+			sourceTree = "<group>";
+		};
+		36ACEB8A549BD1F9CD4BEE8D67699074 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E511CE645132D2AFDF026E99351AA998 /* TAConfirmOrder.xcconfig */,
+				411912E83B398D1AA6981B51F9B91DF4 /* TAConfirmOrder-dummy.m */,
+				61B2EFA82BA67F82B309DBD32FC1878E /* TAConfirmOrder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAConfirmOrder";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DD2F7759A9C59F703734BF12899087B /* TAGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9CA516D52EA3763B76791AFAA4AC0665 /* TAGoodsDetailViewController.h */,
+				3AC07FD1021D773F1EB7228A47B7D048 /* TAGoodsDetailViewController.m */,
+				36F327E15B95087A800B47C2FD4A8A34 /* Target_TAGoodsDetail.h */,
+				967F3D7626AD787D8E6D55316FE88EF4 /* Target_TAGoodsDetail.m */,
+				7E088604636647E8C6C2B2197CDCC8CC /* Support Files */,
+			);
+			name = TAGoodsDetail;
+			path = TAGoodsDetail;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BD5ABCD8398A939CA95601A7271ABC40 /* Pods */,
+				A4256F07C93158D7B83CF500A4FAAC80 /* Products */,
+				8B18F907FF403CE13676CCE246AAD73D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E088604636647E8C6C2B2197CDCC8CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7288D9AD58A2710C165AF1B2621A4EBF /* TAGoodsDetail.xcconfig */,
+				B381DA9BECF868E2DCDE7E465CA3F6F8 /* TAGoodsDetail-dummy.m */,
+				D73D7A2C9912312FA20AF50C272B5CBA /* TAGoodsDetail-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAGoodsDetail";
+			sourceTree = "<group>";
+		};
+		8B18F907FF403CE13676CCE246AAD73D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0331CD83E5A26454C11C3ABAA23AC084 /* Pods-TAMainProject */,
+				FC82DE8F18B2FB97BE5537CC0E320385 /* Pods-TAMainProjectTests */,
+				9ED7BDF19451D4B8E5B6B6BFAF8AEBD9 /* Pods-TAMainProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C6EAAFC2C67039874592F813B04BE18 /* TAConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				D7111EA34208DCCABCE9E8EAFDC0ED72 /* TAConfirmOrderViewController.h */,
+				5A4FA1E822C1249FCACC598845EFF906 /* TAConfirmOrderViewController.m */,
+				4F8C72F717090AEAC7D82D6CCFEE550D /* Target_TAConfirmOrder.h */,
+				7424ABA59AA272F48F1D6E4F5912EF37 /* Target_TAConfirmOrder.m */,
+				36ACEB8A549BD1F9CD4BEE8D67699074 /* Support Files */,
+			);
+			name = TAConfirmOrder;
+			path = TAConfirmOrder;
+			sourceTree = "<group>";
+		};
+		915CD43C7C94823D434AF36DD9E3EBFC /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				0439D96248502A779E8CA520DE1740BE /* CTMediator.h */,
+				4A5FA4FB4B8A559ED7C8ED4D8A987523 /* CTMediator.m */,
+				B9175C7362627185525626314E1CB10D /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		9ED7BDF19451D4B8E5B6B6BFAF8AEBD9 /* Pods-TAMainProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3844807479FE87058CC64B35E99C5 /* Pods-TAMainProjectUITests-acknowledgements.markdown */,
+				1D9C2CC1EEBF3AAB95124BBEDC6E39AE /* Pods-TAMainProjectUITests-acknowledgements.plist */,
+				2EFE80DE2BB7B66C2BCC8BCB87FDD19D /* Pods-TAMainProjectUITests-dummy.m */,
+				39BF16247073563C20D2E302235FB472 /* Pods-TAMainProjectUITests-frameworks.sh */,
+				0493DEE99B0A93842144D62C9F02F484 /* Pods-TAMainProjectUITests-resources.sh */,
+				35F8A9A07EF90ABBAD0AD28E7FFCB529 /* Pods-TAMainProjectUITests.debug.xcconfig */,
+				13DA43E6447E79F107A684FE5D6E9B72 /* Pods-TAMainProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-TAMainProjectUITests";
+			path = "Target Support Files/Pods-TAMainProjectUITests";
+			sourceTree = "<group>";
+		};
+		A3811F13A9421D6B05F11C722E19F4A9 /* TAConfirmOrderBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				91AEF4D14E57C6FD29F25FD6EB5CB7F0 /* CTMediator+TAConfirmOrder.h */,
+				7BA1F3DB48F1AA440DB9B6A5830FC4CC /* CTMediator+TAConfirmOrder.m */,
+				EFDC73A9955AD25FFB03125F307B062F /* Support Files */,
+			);
+			name = TAConfirmOrderBusinessCategory;
+			path = TAConfirmOrderBusinessCategory;
+			sourceTree = "<group>";
+		};
+		A4256F07C93158D7B83CF500A4FAAC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83287807439AECD4B17CF46292E3EA8A /* libCTMediator.a */,
+				F4202D975D6F5F82E97CC45B4D7A9874 /* libPods-TAMainProject.a */,
+				402E7C4CFABDA22539CBC235042ED188 /* libPods-TAMainProjectTests.a */,
+				6258F3CBA526E64A81160142F7DE37C7 /* libPods-TAMainProjectUITests.a */,
+				957719974D835E212A1F0A42E8DA656C /* libTAConfirmOrder.a */,
+				3C468D35FCC02A7CC05D912A45D9CF32 /* libTAConfirmOrderBusinessCategory.a */,
+				F1090ED7683586583311FEDC1D50D2D8 /* libTAGoodsDetail.a */,
+				E184913EE09ED5D91C2648E845001A0B /* libTAGoodsDetailBusinessCategory.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9175C7362627185525626314E1CB10D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FF888BD6FFF1FF32A79997974AD533 /* CTMediator.xcconfig */,
+				DD3D73A9B800E2FEAF9D662D87035054 /* CTMediator-dummy.m */,
+				DC94EF983D98B5EA8ABFC68139D100CB /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		BD5ABCD8398A939CA95601A7271ABC40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915CD43C7C94823D434AF36DD9E3EBFC /* CTMediator */,
+				8C6EAAFC2C67039874592F813B04BE18 /* TAConfirmOrder */,
+				A3811F13A9421D6B05F11C722E19F4A9 /* TAConfirmOrderBusinessCategory */,
+				5DD2F7759A9C59F703734BF12899087B /* TAGoodsDetail */,
+				DADAA7798BC7C49D73925EF8665DCB9E /* TAGoodsDetailBusinessCategory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDCEFE3421D089A8E2E32197E6B7349B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7D2ED47C0D9DCA88187C8BBA6C250 /* TAGoodsDetailBusinessCategory.xcconfig */,
+				D01BC1779E269E9B3FC613D3E8025D02 /* TAGoodsDetailBusinessCategory-dummy.m */,
+				4106ED0D095A0B055B368CA1E39EF6E9 /* TAGoodsDetailBusinessCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAGoodsDetailBusinessCategory";
+			sourceTree = "<group>";
+		};
+		DADAA7798BC7C49D73925EF8665DCB9E /* TAGoodsDetailBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				77A39B7A21120C1C966F126BA2B99526 /* CTMediator+TAGoodsDetail.h */,
+				353FA8451A1E033E788C732643F3883A /* CTMediator+TAGoodsDetail.m */,
+				BDCEFE3421D089A8E2E32197E6B7349B /* Support Files */,
+			);
+			name = TAGoodsDetailBusinessCategory;
+			path = TAGoodsDetailBusinessCategory;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EFDC73A9955AD25FFB03125F307B062F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B10DC9F48C11423F85EA2A3221964F1 /* TAConfirmOrderBusinessCategory.xcconfig */,
+				042AAD323CDBD6D097DE5072B1D1369D /* TAConfirmOrderBusinessCategory-dummy.m */,
+				42E28334366A5FA22176749A88EBE2C0 /* TAConfirmOrderBusinessCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAConfirmOrderBusinessCategory";
+			sourceTree = "<group>";
+		};
+		FC82DE8F18B2FB97BE5537CC0E320385 /* Pods-TAMainProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				564CFC0814DE8D3BF9903E72F69DFA01 /* Pods-TAMainProjectTests-acknowledgements.markdown */,
+				15C57789688D8E53D870965E3A1C7D32 /* Pods-TAMainProjectTests-acknowledgements.plist */,
+				680FAB72DD43D9CC744446372A0A02CE /* Pods-TAMainProjectTests-dummy.m */,
+				872ECC75798278AEAF5A17FABD0E4A3E /* Pods-TAMainProjectTests-frameworks.sh */,
+				D8BCCA87CB6DD848DBB640154F8D3C7B /* Pods-TAMainProjectTests-resources.sh */,
+				5840FC4C9EA31C223A3AE145978E8E19 /* Pods-TAMainProjectTests.debug.xcconfig */,
+				4069B8FFB6CF4FFF4A1FEA93B5A83F32 /* Pods-TAMainProjectTests.release.xcconfig */,
+			);
+			name = "Pods-TAMainProjectTests";
+			path = "Target Support Files/Pods-TAMainProjectTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4928C77C7B4D975A0F53053D2A5A5CE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A974D75663AACCF158A394DBC37450 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5895E56A84B7843DB4C52976B50FD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CACE905279603079202CB6F55EA13A /* CTMediator+TAGoodsDetail.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF10B12CADF2DBD40BA561D6761152F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA31916C0D197A7C61EB61D51A6F91C /* TAGoodsDetailViewController.h in Headers */,
+				3406900895E63BB902D955520657CD1C /* Target_TAGoodsDetail.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0401D3897EAD7A199AA71FE43A660D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC52483A61EDEA273DC7E2BE8F732DA /* TAConfirmOrderViewController.h in Headers */,
+				F49CC6E5D709BAD0B60AD101F85BF80F /* Target_TAConfirmOrder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AA2263CA2D31C62A1AE2418D8F305F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC0F2FD2D85609829E7E78F7E1AB3B1 /* CTMediator+TAConfirmOrder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FB53B9247B7526D216EE7B1263814AF /* TAGoodsDetailBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB15F0A28CA654D8FDBEDA1F85C31A7 /* Build configuration list for PBXNativeTarget "TAGoodsDetailBusinessCategory" */;
+			buildPhases = (
+				25802A970EADD8FF3464DA14B4B60727 /* Sources */,
+				3E9E2A15BAE9C8E5972D941E522E12F2 /* Frameworks */,
+				8C5895E56A84B7843DB4C52976B50FD5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0806492E08B2E2D5BC7B8A164A5CC908 /* PBXTargetDependency */,
+			);
+			name = TAGoodsDetailBusinessCategory;
+			productName = TAGoodsDetailBusinessCategory;
+			productReference = E184913EE09ED5D91C2648E845001A0B /* libTAGoodsDetailBusinessCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		21BA2084AD5E7FCB086A3DF8A5295300 /* Pods-TAMainProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D144E79F9C292982E3E44DCB625E7BE1 /* Build configuration list for PBXNativeTarget "Pods-TAMainProjectTests" */;
+			buildPhases = (
+				BADA66823A41E11222639297AA65675D /* Sources */,
+				4C201EFCB796D7622806A79A586C7AA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TAMainProjectTests";
+			productName = "Pods-TAMainProjectTests";
+			productReference = 402E7C4CFABDA22539CBC235042ED188 /* libPods-TAMainProjectTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A67FB0ED3D57190A5A96ADCBDA528BA4 /* Pods-TAMainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2277EA4BD54B7385346EEE4322A603 /* Build configuration list for PBXNativeTarget "Pods-TAMainProject" */;
+			buildPhases = (
+				D3B88A607A6B270F5BE5978C9644CA47 /* Sources */,
+				9D65DD8DBEA7A79511FDCC88648904CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99292799BE3AAA2C73A728FD75A4A432 /* PBXTargetDependency */,
+				FFDACB7E2A8BC8F796B0246D67170140 /* PBXTargetDependency */,
+				9F880A98C70EAFFE355E0ED11EECF6CA /* PBXTargetDependency */,
+				D888B604EC8FFE129388979405658AB8 /* PBXTargetDependency */,
+				4721C5CA89F8AD1FAD3B151FAFB48DDE /* PBXTargetDependency */,
+			);
+			name = "Pods-TAMainProject";
+			productName = "Pods-TAMainProject";
+			productReference = F4202D975D6F5F82E97CC45B4D7A9874 /* libPods-TAMainProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE52E83EACB5A5127B9ECF65074BED1D /* TAConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B0296E2C3CFD72A648ABA661AD29BF /* Build configuration list for PBXNativeTarget "TAConfirmOrder" */;
+			buildPhases = (
+				A455652A0EE73BADA6888F6F4FA82076 /* Sources */,
+				08607917C97E16452B38CAAE6A076731 /* Frameworks */,
+				DE0401D3897EAD7A199AA71FE43A660D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAConfirmOrder;
+			productName = TAConfirmOrder;
+			productReference = 957719974D835E212A1F0A42E8DA656C /* libTAConfirmOrder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BCD6008F09213CE1F5466B13D703F406 /* Pods-TAMainProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878BF6916FBF0D51845DEBF476BE8F2B /* Build configuration list for PBXNativeTarget "Pods-TAMainProjectUITests" */;
+			buildPhases = (
+				0D0E3E6E74E3B06ABE0763696D97EC66 /* Sources */,
+				E1C3D62DEC1D240A45A10666FEAE19E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TAMainProjectUITests";
+			productName = "Pods-TAMainProjectUITests";
+			productReference = 6258F3CBA526E64A81160142F7DE37C7 /* libPods-TAMainProjectUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D35FF4590BEF783E2B2A3B5FBC49EFE8 /* TAConfirmOrderBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9BDC0D30111EA04A831ED6B0DA1191 /* Build configuration list for PBXNativeTarget "TAConfirmOrderBusinessCategory" */;
+			buildPhases = (
+				0D0EF634AE27E5770468F15E0989F811 /* Sources */,
+				DFFAC856FBC5BDCCE837CADD7077C0B0 /* Frameworks */,
+				F6AA2263CA2D31C62A1AE2418D8F305F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BC1A2543ED533BA219CA0304DCECC6 /* PBXTargetDependency */,
+			);
+			name = TAConfirmOrderBusinessCategory;
+			productName = TAConfirmOrderBusinessCategory;
+			productReference = 3C468D35FCC02A7CC05D912A45D9CF32 /* libTAConfirmOrderBusinessCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364F80A1A1AFF0BC44145F20DB8BE91E /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				741ACAB06712A87B9A72721865B9577F /* Sources */,
+				FA27E7990AD81D1DC155549E1700C407 /* Frameworks */,
+				4928C77C7B4D975A0F53053D2A5A5CE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 83287807439AECD4B17CF46292E3EA8A /* libCTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF79BB6E21D2A46F951AD366DAA2272E /* TAGoodsDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBBDA9C654A67CFE432DA60B1FCC0BD /* Build configuration list for PBXNativeTarget "TAGoodsDetail" */;
+			buildPhases = (
+				6CDB3622232F52C831F5B834D3624D63 /* Sources */,
+				C4B49089DDA1847B0A9F280E005F1F91 /* Frameworks */,
+				ADF10B12CADF2DBD40BA561D6761152F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D758CC3E5665BE3E1E03BBAF2A0F2B73 /* PBXTargetDependency */,
+				00158745544CDF57515D53484D672F97 /* PBXTargetDependency */,
+			);
+			name = TAGoodsDetail;
+			productName = TAGoodsDetail;
+			productReference = F1090ED7683586583311FEDC1D50D2D8 /* libTAGoodsDetail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A4256F07C93158D7B83CF500A4FAAC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */,
+				A67FB0ED3D57190A5A96ADCBDA528BA4 /* Pods-TAMainProject */,
+				21BA2084AD5E7FCB086A3DF8A5295300 /* Pods-TAMainProjectTests */,
+				BCD6008F09213CE1F5466B13D703F406 /* Pods-TAMainProjectUITests */,
+				AE52E83EACB5A5127B9ECF65074BED1D /* TAConfirmOrder */,
+				D35FF4590BEF783E2B2A3B5FBC49EFE8 /* TAConfirmOrderBusinessCategory */,
+				EF79BB6E21D2A46F951AD366DAA2272E /* TAGoodsDetail */,
+				0FB53B9247B7526D216EE7B1263814AF /* TAGoodsDetailBusinessCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0E3E6E74E3B06ABE0763696D97EC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C388CC0B5CFFDC270A7C130569BF62 /* Pods-TAMainProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0EF634AE27E5770468F15E0989F811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4855D51EEE3F47440EDE0AB54E1864 /* CTMediator+TAConfirmOrder.m in Sources */,
+				E8C60CF6CA677D881ECDD9720D65292D /* TAConfirmOrderBusinessCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25802A970EADD8FF3464DA14B4B60727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8052BD1CF60BE790D0E2BE640DDF706C /* CTMediator+TAGoodsDetail.m in Sources */,
+				3C51C1AF7EA95FD32EB14EB87C5BF495 /* TAGoodsDetailBusinessCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDB3622232F52C831F5B834D3624D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A735F0E043CABAD19CAFFB1C876E1FFC /* TAGoodsDetail-dummy.m in Sources */,
+				9ED990A9EE0C1E456EDAA353288FBD1A /* TAGoodsDetailViewController.m in Sources */,
+				88429E313E8B17FFB28AC67E0802E61F /* Target_TAGoodsDetail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741ACAB06712A87B9A72721865B9577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */,
+				D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A455652A0EE73BADA6888F6F4FA82076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F15209B3D9AC702093D834939A37D5 /* TAConfirmOrder-dummy.m in Sources */,
+				D91C2DCF87EA6CCAB74D51EB3D0E83D4 /* TAConfirmOrderViewController.m in Sources */,
+				601E2B8739C49545FD1428732DCD7DD4 /* Target_TAConfirmOrder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADA66823A41E11222639297AA65675D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1FB157E3CD20D11F1D919176648D70 /* Pods-TAMainProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B88A607A6B270F5BE5978C9644CA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A220DDE4FEC4C642ECCB6BA9369573F /* Pods-TAMainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00158745544CDF57515D53484D672F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAConfirmOrderBusinessCategory;
+			target = D35FF4590BEF783E2B2A3B5FBC49EFE8 /* TAConfirmOrderBusinessCategory */;
+			targetProxy = 1ED2A6AC29073752587C213114F53040 /* PBXContainerItemProxy */;
+		};
+		0806492E08B2E2D5BC7B8A164A5CC908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = DFA4F541F2397CF8CEF39D2697B8FF26 /* PBXContainerItemProxy */;
+		};
+		15BC1A2543ED533BA219CA0304DCECC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = 8B7E4E1509CEB7BC40FAFDD49F6CC683 /* PBXContainerItemProxy */;
+		};
+		4721C5CA89F8AD1FAD3B151FAFB48DDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAGoodsDetailBusinessCategory;
+			target = 0FB53B9247B7526D216EE7B1263814AF /* TAGoodsDetailBusinessCategory */;
+			targetProxy = 2BDA957DDEDD3739B6F4FF3249866B71 /* PBXContainerItemProxy */;
+		};
+		99292799BE3AAA2C73A728FD75A4A432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = DA795C3D5753096DB523BC130C5631D6 /* PBXContainerItemProxy */;
+		};
+		9F880A98C70EAFFE355E0ED11EECF6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAConfirmOrderBusinessCategory;
+			target = D35FF4590BEF783E2B2A3B5FBC49EFE8 /* TAConfirmOrderBusinessCategory */;
+			targetProxy = 87EEE9D77117DD5A15CD87927219961E /* PBXContainerItemProxy */;
+		};
+		D758CC3E5665BE3E1E03BBAF2A0F2B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = 1EE1CD9CD2FCF59BEAF3903A4D51BFD7 /* PBXContainerItemProxy */;
+		};
+		D888B604EC8FFE129388979405658AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAGoodsDetail;
+			target = EF79BB6E21D2A46F951AD366DAA2272E /* TAGoodsDetail */;
+			targetProxy = 899B9646AF06EC673B8DD461BC4008F4 /* PBXContainerItemProxy */;
+		};
+		FFDACB7E2A8BC8F796B0246D67170140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAConfirmOrder;
+			target = AE52E83EACB5A5127B9ECF65074BED1D /* TAConfirmOrder */;
+			targetProxy = B49E85C2D5290B3430104F25BD61354A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C4BD7BF78C7E910511FA43706CD0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DA43E6447E79F107A684FE5D6E9B72 /* Pods-TAMainProjectUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14E103819CCB3987B1DBAF3B44504C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B10DC9F48C11423F85EA2A3221964F1 /* TAConfirmOrderBusinessCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAConfirmOrderBusinessCategory/TAConfirmOrderBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1AFE420003A39C7EB76BCB9508EC05BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4069B8FFB6CF4FFF4A1FEA93B5A83F32 /* Pods-TAMainProjectTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23947291EF4DB94D5FDA0420E63E0B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F8A9A07EF90ABBAD0AD28E7FFCB529 /* Pods-TAMainProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26985457C36352F9FD72EE4F2EB26CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FF888BD6FFF1FF32A79997974AD533 /* CTMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D50BB4175386276B258F2D12CAD8C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687009A7BA009C7B9D8B9DB44403C147 /* Pods-TAMainProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30B6E6BD54DFE67EDE73AC380D31AF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7288D9AD58A2710C165AF1B2621A4EBF /* TAGoodsDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAGoodsDetail/TAGoodsDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5A80433286F4FDCED1D0497298BDBAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B7D2ED47C0D9DCA88187C8BBA6C250 /* TAGoodsDetailBusinessCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAGoodsDetailBusinessCategory/TAGoodsDetailBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BB869A4E1D28560B0A34F95DDFA1585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C392B772AC0A63DBBF6522C6F6D3B823 /* Pods-TAMainProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A9CE69AEBD32EDA394DDB58FB56B9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E511CE645132D2AFDF026E99351AA998 /* TAConfirmOrder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAConfirmOrder/TAConfirmOrder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93641614E58528FC9A560FBE328D6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E511CE645132D2AFDF026E99351AA998 /* TAConfirmOrder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAConfirmOrder/TAConfirmOrder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5BD5C280F6F256E31A70C867A813F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B10DC9F48C11423F85EA2A3221964F1 /* TAConfirmOrderBusinessCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAConfirmOrderBusinessCategory/TAConfirmOrderBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A69B635531184D9975A5B8070B0C1494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FF888BD6FFF1FF32A79997974AD533 /* CTMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A788FFCB6DDE790E1D5D97F022555EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B7D2ED47C0D9DCA88187C8BBA6C250 /* TAGoodsDetailBusinessCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAGoodsDetailBusinessCategory/TAGoodsDetailBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB4560C252CCAAE58565FF7D7010B9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7288D9AD58A2710C165AF1B2621A4EBF /* TAGoodsDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAGoodsDetail/TAGoodsDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDBA8953CA3AA1084FC17D61A6D40FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5840FC4C9EA31C223A3AE145978E8E19 /* Pods-TAMainProjectTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364F80A1A1AFF0BC44145F20DB8BE91E /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26985457C36352F9FD72EE4F2EB26CAB /* Debug */,
+				A69B635531184D9975A5B8070B0C1494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9BDC0D30111EA04A831ED6B0DA1191 /* Build configuration list for PBXNativeTarget "TAConfirmOrderBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BD5C280F6F256E31A70C867A813F81 /* Debug */,
+				14E103819CCB3987B1DBAF3B44504C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878BF6916FBF0D51845DEBF476BE8F2B /* Build configuration list for PBXNativeTarget "Pods-TAMainProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23947291EF4DB94D5FDA0420E63E0B88 /* Debug */,
+				01C4BD7BF78C7E910511FA43706CD0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB15F0A28CA654D8FDBEDA1F85C31A7 /* Build configuration list for PBXNativeTarget "TAGoodsDetailBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A80433286F4FDCED1D0497298BDBAC3 /* Debug */,
+				A788FFCB6DDE790E1D5D97F022555EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2277EA4BD54B7385346EEE4322A603 /* Build configuration list for PBXNativeTarget "Pods-TAMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB869A4E1D28560B0A34F95DDFA1585 /* Debug */,
+				2D50BB4175386276B258F2D12CAD8C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D144E79F9C292982E3E44DCB625E7BE1 /* Build configuration list for PBXNativeTarget "Pods-TAMainProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA8953CA3AA1084FC17D61A6D40FDD /* Debug */,
+				1AFE420003A39C7EB76BCB9508EC05BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B0296E2C3CFD72A648ABA661AD29BF /* Build configuration list for PBXNativeTarget "TAConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9CE69AEBD32EDA394DDB58FB56B9FA /* Debug */,
+				93641614E58528FC9A560FBE328D6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBBDA9C654A67CFE432DA60B1FCC0BD /* Build configuration list for PBXNativeTarget "TAGoodsDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4560C252CCAAE58565FF7D7010B9CF /* Debug */,
+				30B6E6BD54DFE67EDE73AC380D31AF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

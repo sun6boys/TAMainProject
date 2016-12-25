@@ -1,0 +1,25 @@
+PODS:
+  - CTMediator (0.0.1)
+  - TAConfirmOrder (0.0.1)
+  - TAConfirmOrderBusinessCategory (0.0.1):
+    - CTMediator
+  - TAGoodsDetail (0.0.1):
+    - TAConfirmOrderBusinessCategory
+  - TAGoodsDetailBusinessCategory (0.0.3):
+    - CTMediator
+
+DEPENDENCIES:
+  - TAConfirmOrder
+  - TAGoodsDetail
+  - TAGoodsDetailBusinessCategory
+
+SPEC CHECKSUMS:
+  CTMediator: fcfaacc102b427e6b8943d1a6cd91cbfe193f5c6
+  TAConfirmOrder: d60c8d32105a477ea6275afcaee29c716d645166
+  TAConfirmOrderBusinessCategory: c1c5d5d1f0d84a8081909a8a9604100382b86771
+  TAGoodsDetail: bb60390b94d3a9f49584fb17936828dd693f4f82
+  TAGoodsDetailBusinessCategory: 029b7e524573966b0ea61f3b723bc75d9bceaa99
+
+PODFILE CHECKSUM: 4c547ead6c5ad5c071863121c430ba84aa309c1c
+
+COCOAPODS: 1.1.1
